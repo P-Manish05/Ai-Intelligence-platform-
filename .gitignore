@@ -1,0 +1,166 @@
+# ==========================================
+# AI Intelligence Platform - .gitignore
+# ==========================================
+
+# ------------------------------------------
+# Environment & Secrets
+# ------------------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# ------------------------------------------
+# Python
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# ------------------------------------------
+# Node.js & Web Frameworks
+# ------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+out/
+.nuxt/
+.vuepress/
+.cache/
+
+# ------------------------------------------
+# AI / ML / Datasets & Artifacts
+# ------------------------------------------
+# Model Weights & Checkpoints
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.bin
+*.ckpt
+*.tflite
+*.pb
+checkpoints/
+models/weights/
+
+# Datasets & ML Experiment Logs
+datasets/
+data/raw/
+data/interim/
+data/processed/
+wandb/
+mlruns/
+.neptune/
+tensorboard_logs/
+
+# ------------------------------------------
+# IDEs & Code Editors
+# ------------------------------------------
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# ------------------------------------------
+# Infrastructure & DevOps (Terraform / Cloud)
+# ------------------------------------------
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terragrunt-cache/
+
+# ------------------------------------------
+# Docker & Containers
+# ------------------------------------------
+.docker/
+docker-compose.override.yml
+*.docker.log
+
+# ------------------------------------------
+# Logs & Monitoring
+# ------------------------------------------
+*.log
+logs/
+*.log.*
+
+# ------------------------------------------
+# Code Coverage & Testing
+# ------------------------------------------
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.lcov
+.nox/
+.tox/
+
+# ------------------------------------------
+# Operating System Files
+# ------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------
+# Temporary & Backup Files
+# ------------------------------------------
+*.bak
+*.tmp
+*.temp
+*.swp
+*~
+.sass-cache/
